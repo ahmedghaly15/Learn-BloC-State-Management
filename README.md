@@ -3,7 +3,7 @@ A New Flutter Project.
 
 ## Getting Started
 
-This Project Will Help You Understand Bloc State Management With Easily.
+This Project Will Help You Understand Bloc State Management Easily.
 
 A few resources to get you started if this is your first Flutter project:
 
