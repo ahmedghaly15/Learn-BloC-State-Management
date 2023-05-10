@@ -11,8 +11,7 @@ class CounterScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return BlocProvider(
       create: (BuildContext context) => CounterCubit(),
-      child: BlocConsumer<CounterCubit, CounterStates>(
-        listener: (context, state) {},
+      child: BlocBuilder<CounterCubit, CounterStates>(
         builder: (context, state) => Scaffold(
           body: Center(
             child: Row(
